@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from jose import JWTerror, jwt
+from jose import JWTError, jwt
 from datetime import datetime, timedelta
 from passlib.context import CryptContext 
 from typing import Optional
